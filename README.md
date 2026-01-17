@@ -159,121 +159,156 @@ Colors respect universal psychological associations:
 
 ## Reasoning by Element Type
 
-> **Note**: The colors below are the result of the latest theme generation. They will be automatically updated during the next execution of the generation prompt (`builder/prompt.md`).
+### Critical Elements
 
-### Critical Elements (vivid colors)
-
-1. **Keywords (if, else, for, class, function...)** → **Monokai vivid pink `#f92672`**
-
+1. **Keywords (if, else, for, class, function...)**
    - Control program flow
    - MUST stand out immediately
    - Allow understanding the logical structure at a glance
 
-2. **Function/method declarations** → **Monokai vivid green `#a6e22e`**
-
+2. **Function/method declarations**
    - Fundamental blocks of logic
    - Facilitate code navigation
    - Entry points of the architecture
 
-3. **Function calls** → **Monokai cyan `#66d9ef`**
-
+3. **Function calls**
    - Indicate where code "jumps" to other parts
-   - Distinct from declarations (green) to trace flow
+   - Distinct from declarations to trace flow
    - Allow following execution
 
-4. **Errors** → **Vivid red `#ff0000`**
+4. **Errors**
    - MUST be immediately alarming
    - Color universally associated with danger
    - Impossible to miss
 
-### Important Elements (distinctive colors)
+### Important Elements
 
-5. **Numbers** → **Monokai purple `#ae81ff`**
-
+5. **Numbers**
    - Can be critical "magic numbers"
    - Timeouts, limits, important indices
    - Must be spotted quickly
 
-6. **Function parameters** → **Monokai orange `#fd971f` + italic**
-
+6. **Function parameters**
    - Define a function's interface
    - Distinguished from local variables
    - Italic reinforces the distinction
 
-7. **Constants** → **Islands Dark mauve pink `#c77dbb` + italic**
-
+7. **Constants**
    - Special immutable values
    - Italic indicates their fixed nature
 
-8. **String escapes** → **Monokai purple `#ae81ff`**
+8. **String escapes**
    - Modify string behavior
    - Can cause subtle bugs or injections
    - Must attract attention
 
-### Data Elements (soft colors)
+### Data Elements
 
-9. **Strings** → **Islands Dark soft green `#6aab73`**
-
+9. **Strings**
    - Are data, not logic
    - Should not distract from active code
    - Soothing color for text content
 
-10. **Comments** → **Islands Dark gray `#7a7e85`**
-
+10. **Comments**
     - Secondary contextual information
     - Should NEVER dominate visually
     - Allow focus on active code
 
-11. **Documentation** → **Islands Dark grayed green `#5f826b`**
+11. **Documentation**
     - More important than simple comments
     - But remains secondary to code
 
-### Structure Elements (neutral)
+### Structure Elements
 
-12. **Operators (+, -, \*, /, =, ==...)** → **Light gray `#bcbec4`**
-
+12. **Operators (+, -, \*, /, =, ==...)**
     - Omnipresent in code
     - Coloring them would be too distracting
     - Must remain neutral
 
-13. **Punctuation (commas, semicolons, dots)** → **Light gray `#bcbec4`**
-
+13. **Punctuation (commas, semicolons, dots)**
     - Pure syntax with no semantics
     - Should not attract attention
 
-14. **Braces, brackets, parentheses** → **Light gray `#bcbec4`**
+14. **Braces, brackets, parentheses**
     - Delimit structure
     - Neutral at rest, but colored background on hover (matching)
 
 ### Metadata Elements
 
-15. **Annotations/Decorators (@Override, @param...)** → **Olive yellow `#b3ae60`**
-
+15. **Annotations/Decorators (@Override, @param...)**
     - Important but secondary metadata
     - Distinctive but not loud color
 
-16. **HTML/XML tags** → **Islands Dark gold `#d5b778`**
+16. **HTML/XML tags**
     - Document structure
-    - Distinct from logical code (pink keywords)
+    - Distinct from logical code (keywords)
 
 ### Feedback Elements
 
-17. **Warnings** → **Yellow `#f2c55c` underlined**
-
+17. **Warnings**
     - Attention required but not critical
     - Less alarming than error red
 
-18. **TODO** → **Lime green `#8bb33d`**
-
+18. **TODO**
     - Must stand out from normal comments
     - Distinctive without being alarming
 
-19. **Unused code** → **Dark gray `#6f737a`**
-
+19. **Unused code**
     - Dimmed to suggest removal
 
-20. **Deprecated code** → **Light gray strikethrough `#bcbec4`**
+20. **Deprecated code**
     - Strikethrough clearly indicates obsolescence
+
+---
+
+## Compatibility
+
+This theme is compatible with all JetBrains IDEs:
+
+- IntelliJ IDEA (Community & Ultimate)
+- WebStorm
+- PyCharm
+- PHPStorm
+- RubyMine
+- GoLand
+- CLion
+- DataGrip
+- Rider
+- Android Studio
+
+---
+
+## License
+
+This theme is distributed under the MIT license. You are free to use, modify, and redistribute it.
+
+---
+
+---
+
+# JetBrains Optimal Dark Theme - Configuration Details
+
+## Color Palette
+
+> **Note**: This palette is automatically generated from the choices made during theme generation.
+
+### Main Colors Used
+
+| Color                                                               | Hex       | Usage                              | Origin       |
+| ------------------------------------------------------------------- | --------- | ---------------------------------- | ------------ |
+| ![#f92672](https://readme-swatches.vercel.app/f92672) Vivid pink    | `#f92672` | Keywords, directives, !important   | Monokai      |
+| ![#a6e22e](https://readme-swatches.vercel.app/a6e22e) Vivid green   | `#a6e22e` | Function declarations, attributes  | Monokai      |
+| ![#66d9ef](https://readme-swatches.vercel.app/66d9ef) Cyan          | `#66d9ef` | Function calls, methods, CSS props | Monokai      |
+| ![#ae81ff](https://readme-swatches.vercel.app/ae81ff) Purple        | `#ae81ff` | Numbers, escapes                   | Monokai      |
+| ![#fd971f](https://readme-swatches.vercel.app/fd971f) Orange        | `#fd971f` | Parameters                         | Monokai      |
+| ![#6aab73](https://readme-swatches.vercel.app/6aab73) Soft green    | `#6aab73` | Strings                            | Islands Dark |
+| ![#7a7e85](https://readme-swatches.vercel.app/7a7e85) Gray          | `#7a7e85` | Comments                           | Islands Dark |
+| ![#bcbec4](https://readme-swatches.vercel.app/bcbec4) Light gray    | `#bcbec4` | Text, operators, punctuation       | Islands Dark |
+| ![#d5b778](https://readme-swatches.vercel.app/d5b778) Gold          | `#d5b778` | HTML/XML tags                      | Islands Dark |
+| ![#c77dbb](https://readme-swatches.vercel.app/c77dbb) Mauve pink    | `#c77dbb` | Constants, fields                  | Islands Dark |
+| ![#ff0000](https://readme-swatches.vercel.app/ff0000) Vivid red     | `#ff0000` | Errors                             | Monokai      |
+| ![#f2c55c](https://readme-swatches.vercel.app/f2c55c) Yellow        | `#f2c55c` | Warnings                           | Islands Dark |
+| ![#191a1c](https://readme-swatches.vercel.app/191a1c) Deep black    | `#191a1c` | Background                         | Islands Dark |
 
 ---
 
@@ -392,50 +427,3 @@ Colors respect universal psychological associations:
 | ✅ DEPRECATED_ATTRIBUTES       | `attributes > DEPRECATED_ATTRIBUTES > EFFECT_COLOR`          | `#bcbec4`              | Light gray + strikethrough | Deprecated elements                          | Deprecated = to be replaced         | Strikethrough clearly indicates the element should no longer be used.                                                                                                                             |
 | ✅ TEXT (Background)           | `attributes > TEXT > BACKGROUND`                             | `#191a1c`              | Deep black              | Editor background                               | Very dark background = less strain  | Islands Dark's very dark background considerably reduces eye fatigue during long coding sessions. Darker than Darcula and Monokai.                                                                |
 | ✅ TEXT (Foreground)           | `attributes > TEXT > FOREGROUND`                             | `#bcbec4`              | Light gray              | Default text                                    | Optimal contrast                    | Light gray offers good contrast without being pure white, which would be harsh on the eyes.                                                                                                       |
-
----
-
-## Color Palette
-
-> **Note**: This palette is automatically generated from the choices made during theme generation.
-
-### Main Colors Used
-
-| Color                                                               | Hex       | Usage                              | Origin       |
-| ------------------------------------------------------------------- | --------- | ---------------------------------- | ------------ |
-| ![#f92672](https://readme-swatches.vercel.app/f92672) Vivid pink    | `#f92672` | Keywords, directives, !important   | Monokai      |
-| ![#a6e22e](https://readme-swatches.vercel.app/a6e22e) Vivid green   | `#a6e22e` | Function declarations, attributes  | Monokai      |
-| ![#66d9ef](https://readme-swatches.vercel.app/66d9ef) Cyan          | `#66d9ef` | Function calls, methods, CSS props | Monokai      |
-| ![#ae81ff](https://readme-swatches.vercel.app/ae81ff) Purple        | `#ae81ff` | Numbers, escapes                   | Monokai      |
-| ![#fd971f](https://readme-swatches.vercel.app/fd971f) Orange        | `#fd971f` | Parameters                         | Monokai      |
-| ![#6aab73](https://readme-swatches.vercel.app/6aab73) Soft green    | `#6aab73` | Strings                            | Islands Dark |
-| ![#7a7e85](https://readme-swatches.vercel.app/7a7e85) Gray          | `#7a7e85` | Comments                           | Islands Dark |
-| ![#bcbec4](https://readme-swatches.vercel.app/bcbec4) Light gray    | `#bcbec4` | Text, operators, punctuation       | Islands Dark |
-| ![#d5b778](https://readme-swatches.vercel.app/d5b778) Gold          | `#d5b778` | HTML/XML tags                      | Islands Dark |
-| ![#c77dbb](https://readme-swatches.vercel.app/c77dbb) Mauve pink    | `#c77dbb` | Constants, fields                  | Islands Dark |
-| ![#ff0000](https://readme-swatches.vercel.app/ff0000) Vivid red     | `#ff0000` | Errors                             | Monokai      |
-| ![#f2c55c](https://readme-swatches.vercel.app/f2c55c) Yellow        | `#f2c55c` | Warnings                           | Islands Dark |
-| ![#191a1c](https://readme-swatches.vercel.app/191a1c) Deep black    | `#191a1c` | Background                         | Islands Dark |
-
----
-
-## Compatibility
-
-This theme is compatible with all JetBrains IDEs:
-
-- IntelliJ IDEA (Community & Ultimate)
-- WebStorm
-- PyCharm
-- PHPStorm
-- RubyMine
-- GoLand
-- CLion
-- DataGrip
-- Rider
-- Android Studio
-
----
-
-## License
-
-This theme is distributed under the MIT license. You are free to use, modify, and redistribute it.
