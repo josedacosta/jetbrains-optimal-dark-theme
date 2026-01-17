@@ -1,0 +1,91 @@
+# ======================
+# OS Generated Files
+# ======================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ======================
+# IDE & Editor Files
+# ======================
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+cmake-build-*/
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*~
+.netrwhist
+tags
+
+# Emacs
+*~
+\#*\#
+.#*
+*.elc
+
+# ======================
+# Logs & Debug
+# ======================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Temporary Files
+# ======================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.cache
+
+# ======================
+# Archives
+# ======================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ======================
+# Personal
+# ======================
+jose/
+CLAUDE.md
