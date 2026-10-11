@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
@@ -16,7 +16,7 @@ JetBrains Optimal Dark is a syntax highlighting theme for JetBrains IDEs. The th
 
 **Exceptions (may remain in French):**
 - `./jose/` - Personal folder
-- `CLAUDE.md` - Personal configuration file
+- `AGENTS.md` - Agent instruction file
 
 ## Project Structure
 
@@ -86,5 +86,5 @@ GitHub-related files must follow the standard casing used in popular open source
 - `CONTRIBUTING.md` (uppercase)
 - `CODE_OF_CONDUCT.md` (uppercase with underscores)
 - `SECURITY.md` (uppercase)
-- `CLAUDE.md` (uppercase)
+- `AGENTS.md` (uppercase)
 - `.gitignore` (lowercase with dot prefix)
